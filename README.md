@@ -45,11 +45,11 @@ simplequiz/
 ```
 ## 🧸 Autor 
 José Antonio Osorio Valdés - Desarrollador Fullstack y Profesor de Estado en ETP
-**---------------------------------------------------**
+---------------------------------------------------
+---------------------------------------------------
 # 🧠 simplequiz
 A simple quiz with JavaScript — Project for Students
 > An educational project made with pure JavaScript
-
 -----------------------------------------------------
 
 # 📚 Description
