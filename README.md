@@ -1,6 +1,6 @@
 # 🧠 simplequiz
-A simple quiz with JS- Project for Students
-> Un quiz simple hecho con JavaScript — Proyecto educativo para estudiantes
+Un quiz simple con JavaScript — Proyecto para estudiantes
+>Un proyecto educativo hecho con JavaScript puro
 ---
 
 ## 📚 Descripción
@@ -45,3 +45,58 @@ simplequiz/
 ```
 ## 🧸 Autor 
 José Antonio Osorio Valdés - Desarrollador Fullstack y Profesor de Estado en ETP
+**---------------------------------------------------**
+# 🧠 simplequiz
+A simple quiz with JavaScript — Project for Students
+> An educational project made with pure JavaScript
+
+-----------------------------------------------------
+
+# 📚 Description
+This is a very simple web project that demonstrates how to build a quiz-style
+application using HTML, CSS, and vanilla JavaScript (no frameworks).
+It is designed to help students understand the basic structure of a web project,
+how it is organized, and how it can be reused or modified.
+-----------------------------------------------------
+# 🎯 Project Goals
+- Build a small to medium-complexity project with HTML, CSS, and JS
+- Apply basic logic to check answers and display scores
+- Practice how to fork a repository, clone it, and debug it locally
+
+-----------------------------------------------------
+
+# 🔄 How to use this project (step-by-step)
+
+## 1. Make a Fork of the repository:
+- Go to the original repository on GitHub
+- Click the 'Fork' button in the upper-right corner
+- This will create a copy of the project under your GitHub account
+
+## 2. Clone your Fork to your computer:
+```bash
+git clone https://github.com/YOUR-USERNAME/simplequiz.git
+```
+(Replace YOUR-USERNAME with your GitHub username)
+
+# 3. Open the main file:
+- Go into the project folder
+- Double-click index.html or open it in your browser
+
+# -----------------------------------------------------
+
+# 📁 Project Structure
+```bash
+simplequiz/
+├── index.html           -> Main quiz page
+├── css/
+│   └── style.css        -> Main styling for the quiz
+├── js/
+│   └── app.js           -> Main quiz logic
+├── audio/               -> Audio files used in the quiz
+├── img/                 -> Images used in the quiz
+└── video/               -> Videos used in the quiz
+```
+-----------------------------------------------------
+
+# 🧸 Author
+José Antonio Osorio Valdés — Fullstack Developer and Vocational Education Teacher
