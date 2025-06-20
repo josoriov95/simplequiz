@@ -1,8 +1,5 @@
-# simplequiz
-A simple quiz with JS- Project for Students
----
-
 # 🧠 simplequiz
+A simple quiz with JS- Project for Students
 > Un quiz simple hecho con JavaScript — Proyecto educativo para estudiantes
 ---
 
