@@ -99,4 +99,4 @@ simplequiz/
 -----------------------------------------------------
 
 # 🧸 Author
-José Antonio Osorio Valdés — Fullstack Developer and Vocational Education Teacher
+José Antonio Osorio Valdés — Computer Engineer, Fullstack Developer and Vocational Education Teacher
