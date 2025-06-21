@@ -88,66 +88,72 @@
             <div class="categories-ct">
                 <ul class="categories_list">
                     <li class="categorie_item">
-                        <a href="#" class="categorie-anchor">
-                            <input type="checkbox" name="cat-animals" id="catAnimal" value="animales">
+                        <input type="checkbox" name="cat-animals" id="catAnimal" value="animales" hidden>
+                        <label for="catAnimal" class="categorie-chip">
                             <span class="categorie_icon">🧸</span>
                             <span class="categorie_title">Animales</span>
-                        </a>
+                        </label>
                     </li>
                     <li class="categorie_item">
-                        <a href="#" class="categorie-anchor">
-                            <input type="checkbox" name="cat-griffindor" id="catGriffindor"
-                                value="harrypotter,griffindor">
+                        <input type="checkbox" name="cat-griffindor" id="catGriffindor" value="harrypotter,griffindor"
+                            hidden>
+                        <label for="catGriffindor" class="categorie-chip">
                             <span class="categorie_icon">🦁</span>
                             <span class="categorie_title">Gryffindor</span>
-                        </a>
+                        </label>
                     </li>
                     <li class="categorie_item">
-                        <a href="#" class="categorie-anchor">
-                            <input type="checkbox" name="cat-slytherin" id="catSlytherin" value="harrypotter slytherin">
+                        <input type="checkbox" name="cat-slytherin" id="catSlytherin" value="harrypotter slytherin"
+                            hidden>
+                        <label for="catSlytherin" class="categorie-chip">
                             <span class="categorie_icon">🐍</span>
                             <span class="categorie_title">Slytherin</span>
-                        </a>
+                        </label>
                     </li>
                     <li class="categorie_item">
-                        <a href="#" class="categorie-anchor">
-                            <input type="checkbox" name="cat-ravenclaw" id="catRavenclaw" value="harrypotter ravenclaw">
+                        <input type="checkbox" name="cat-ravenclaw" id="catRavenclaw" value="harrypotter ravenclaw"
+                            hidden>
+                        <label for="catRavenclaw" class="categorie-chip">
                             <span class="categorie_icon">🦅</span>
                             <span class="categorie_title">Ravenclaw</span>
-                        </a>
+                        </label>
                     </li>
                     <li class="categorie_item">
-                        <a href="#" class="categorie-anchor">
-                            <input type="checkbox" name="cat-hufflepuff" id="catHufflepuff"
-                                value="harrypotter hufflepuff">
+                        <input type="checkbox" name="cat-hufflepuff" id="catHufflepuff" value="harrypotter hufflepuff"
+                            hidden>
+                        <label for="catHufflepuff" class="categorie-chip">
                             <span class="categorie_icon">🦡</span>
                             <span class="categorie_title">Hufflepuff</span>
-                        </a>
+                        </label>
                     </li>
                     <li class="categorie_item">
-                        <a href="#" class="categorie-anchor">
-                            <input type="checkbox" name="cat-mortifagos" id="catMortifagos"
-                                value="harrypotter mortifagos">
+                        <input type="checkbox" name="cat-mortifagos" id="catMortifagos" value="harrypotter mortifagos"
+                            hidden>
+                        <label for="catMortifagos" class="categorie-chip">
                             <span class="categorie_icon">💀</span>
                             <span class="categorie_title">Mortífagos</span>
-                        </a>
+                        </label>
                     </li>
                     <li class="categorie_item">
-                        <a href="#" class="categorie-anchor">
-                            <input type="checkbox" name="cat-halloween" id="catHalloween" value="halloween">
+                        <input type="checkbox" name="cat-halloween" id="catHalloween" value="halloween" hidden>
+                        <label for="catHalloween" class="categorie-chip">
                             <span class="categorie_icon">🎃</span>
                             <span class="categorie_title">Halloween</span>
-                        </a>
+                        </label>
                     </li>
                     <li class="categorie_item">
-                        <a href="#" class="categorie-anchor">
-                            <input type="checkbox" name="cat-navidad" id="catNavidad" value="navidad">
+                        <input type="checkbox" name="cat-navidad" id="catNavidad" value="navidad" hidden>
+                        <label for="catNavidad" class="categorie-chip">
                             <span class="categorie_icon">🎅</span>
                             <span class="categorie_title">Navidad</span>
-                        </a>
+                        </label>
                     </li>
+
                     <li class="categorie_item">
-                        <a href="#" class="categorie-anchor">...</a>
+                        <input type="checkbox" name="more-cat" id="moreCat" value="more">
+                        <label for="catNavidad" class="categorie-chip">
+                            <span class="categorie_title">...</span>
+                        </label>
                     </li>
                 </ul>
             </div>
@@ -157,8 +163,7 @@
             <div class="main_actions">
                 <search class="action_search-quiz">
                     <form class="search-quiz_form">
-                        <input type="search" id="search" name="quiz-search"
-                            placeholder="Buscar...">
+                        <input type="search" id="search" name="quiz-search" placeholder="Buscar...">
                         <button type="submit" class="search-quiz_button">🔎</button>
                     </form>
                 </search>
@@ -343,7 +348,11 @@
                 <ul class="footer_nav_list">
                     <li>
                         <a href="#">Políticas de privacidad</a>
+                    </li>
+                    <li>
                         <a href="#">Términos y condiciones</a>
+                    </li>
+                    <li>
                         <a href="#">Otros</a>
                     </li>
                 </ul>
