@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,351 @@
 
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
+    <div class="index">
+        <header class="index_header">
+            <nav class="header_nav">
+                <ul class="header_nav_list">
+                    <li>
+                        <a href="#">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="#">Explorar</a>
+                    </li>
+                    <li>
+                        <a href="#">Biblioteca</a>
+                    </li>
+                    <li>
+                        <a href="#">Modo Estudio</a>
+                        <ul class="list_mode">
+                            <li>
+                                <a href="#">Flash Cards</a>
+                            </li>
+                            <li>
+                                <a href="#">Auto Test</a>
+                            </li>
+                            <li>
+                                <a href="#">Memory Vault</a>
+                            </li>
+                            <li>
+                                <a href="#">Reflect & Recall</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="header_logo">
+                <div class="logo">
+                    <img src="" alt="Simple Quiz Logo" class="logo_img">
+                </div>
+            </div>
+
+            <div class="header_options">
+                <div class="options-ct">
+                    <div class="options_join">
+                        <div class="join-ct">
+                            <input class="join_input" id="join" type="text" placeholder="Introduce un código...">
+                            <button class="join_button">Unirse</button>
+                        </div>
+                    </div>
+
+                    <div class="options_create">
+                        <div class="create-ct" id="create">
+                            <button class="create_button" title="Crea un nuevo quiz">Crear</button>
+                        </div>
+                    </div>
+
+                    <div class="options_login">
+                        <div class="login-ct">
+                            <input class="login_input" id="login" type="text" placeholder="Iniciar Sesión">
+                            <button class="login_button">🗝️</button>
+                        </div>
+                    </div>
+
+                    <div class="options_lang">
+                        <div class="lang-ct">
+                            <select name="app-lang" id="appLang">
+                                <option value="es">Español</option>
+                                <option value="en">English</option>
+                            </select>
+                        </div>
+                    </div>
+
+                </div><!--.options-ct-->
+            </div><!--.header_options-->
+        </header>
+
+        <nav class="index_categories">
+            <div class="categories-ct">
+                <ul class="categories_list">
+                    <li class="categorie_item">
+                        <a href="#" class="categorie-anchor">
+                            <input type="checkbox" name="cat-animals" id="catAnimal" value="animales">
+                            <span class="categorie_icon">🧸</span>
+                            <span class="categorie_title">Animales</span>
+                        </a>
+                    </li>
+                    <li class="categorie_item">
+                        <a href="#" class="categorie-anchor">
+                            <input type="checkbox" name="cat-griffindor" id="catGriffindor"
+                                value="harrypotter,griffindor">
+                            <span class="categorie_icon">🦁</span>
+                            <span class="categorie_title">Gryffindor</span>
+                        </a>
+                    </li>
+                    <li class="categorie_item">
+                        <a href="#" class="categorie-anchor">
+                            <input type="checkbox" name="cat-slytherin" id="catSlytherin" value="harrypotter,slytherin">
+                            <span class="categorie_icon">🐍</span>
+                            <span class="categorie_title">Slytherin</span>
+                        </a>
+                    </li>
+                    <li class="categorie_item">
+                        <a href="#" class="categorie-anchor">
+                            <input type="checkbox" name="cat-ravenclaw" id="catRavenclaw" value="harrypotter,ravenclaw">
+                            <span class="categorie_icon">🦅</span>
+                            <span class="categorie_title">Ravenclaw</span>
+                        </a>
+                    </li>
+                    <li class="categorie_item">
+                        <a href="#" class="categorie-anchor">
+                            <input type="checkbox" name="cat-hufflepuff" id="catHufflepuff"
+                                value="harrypotter,hufflepuff">
+                            <span class="categorie_icon">🦡</span>
+                            <span class="categorie_title">Hufflepuff</span>
+                        </a>
+                    </li>
+                    <li class="categorie_item">
+                        <a href="#" class="categorie-anchor">
+                            <input type="checkbox" name="cat-mortifagos" id="catMortifagos"
+                                value="harrypotter,mortifagos">
+                            <span class="categorie_icon">💀</span>
+                            <span class="categorie_title">Mortífagos</span>
+                        </a>
+                    </li>
+                    <li class="categorie_item">
+                        <a href="#" class="categorie-anchor">
+                            <input type="checkbox" name="cat-halloween" id="catHalloween" value="harrypotter,halloween">
+                            <span class="categorie_icon">🎃</span>
+                            <span class="categorie_title">Halloween</span>
+                        </a>
+                    </li>
+                    <li class="categorie_item">
+                        <a href="#" class="categorie-anchor">
+                            <input type="checkbox" name="cat-navidad" id="catNavidad" value="harrypotter,navidad">
+                            <span class="categorie_icon">🎅</span>
+                            <span class="categorie_title">Navidad</span>
+                        </a>
+                    </li>
+                    <li class="categorie_item">
+                        <a href="#" class="categorie-anchor">
+                            <a class="categorie_more" href="#">...</a>
+                    </li>
+                    </a>
+                </ul>
+            </div>
+        </nav><!--.index_nav-->
+
+        <main class="index_main">
+            <div class="main_actions">
+                <search class="action_search-quiz">
+                    <form class="search-quiz_form">
+                        <input type="search" id="search-quiz_input" id="search" name="quiz-search"
+                            placeholder="Buscar...">
+                        <button type="submit" class="search-quiz_button">🔎</button>
+                    </form>
+                </search>
+
+                <div class="action_quizzes-lang">
+                    <select name="quizzes-lang" id="quizzesLang" class="quizzes-lang_select">
+                        <option value="es">Español</option>
+                        <option value="en">English</option>
+                    </select>
+                </div>
+            </div><!--.main_actions-->
+
+            <div class="main_quizzes">
+                <div class="quizzes-ct">
+                    <ul class="quizzes-list">
+                        <li class="quiz">
+                            <div class="quiz-ct">
+                                <div class="quiz_header">
+                                    <span class="quiz_update">Actualizado: ayer...</span>
+                                    <span class="quiz_price">Gratis</span>
+                                    <span class="quiz_level">Nivel: Intermedio</span>
+                                </div>
+
+                                <div class="quiz_hero">
+                                    <button class="quiz_save" id="save">❤️</button>
+                                    <img src="" alt="Quiz Cover" class="quiz_img">
+                                    <span class="quiz_questions">12 preguntas</span>
+                                </div>
+
+                                <div class="quiz_main">
+                                    <h2 class="quiz_title">Quiz de Ejemplo</h2>
+                                    <p class="quiz_description">
+                                        Este es un quiz de ejemplo utilizado como muestra para testeo
+                                    </p>
+                                </div>
+
+                                <div class="quiz_footer">
+                                    <span class="quiz_author">José Antonio Osorio Valdés</span>
+                                    <span class="quiz_verified" data-verify="true">☑️</span>
+                                    <button class="quiz_follow" id="follow">
+                                        <span>Seguir +</span>
+                                    </button>
+                                </div>
+                            </div><!--.quiz-ct-->
+                        </li><!--.quiz-->
+                        <li class="quiz">
+                            <div class="quiz-ct">
+                                <div class="quiz_header">
+                                    <span class="quiz_update">Actualizado: ayer...</span>
+                                    <span class="quiz_price">Gratis</span>
+                                    <span class="quiz_level">Nivel: Intermedio</span>
+                                </div>
+
+                                <div class="quiz_hero">
+                                    <button class="quiz_save" id="save">❤️</button>
+                                    <img src="" alt="Quiz Cover" class="quiz_img">
+                                    <span class="quiz_questions">12 preguntas</span>
+                                </div>
+
+                                <div class="quiz_main">
+                                    <h2 class="quiz_title">Quiz de Ejemplo</h2>
+                                    <p class="quiz_description">
+                                        Este es un quiz de ejemplo utilizado como muestra para testeo
+                                    </p>
+                                </div>
+
+                                <div class="quiz_footer">
+                                    <span class="quiz_author">José Antonio Osorio Valdés</span>
+                                    <span class="quiz_verified" data-verify="true">☑️</span>
+                                    <button class="quiz_follow" id="follow">
+                                        <span>Seguir +</span>
+                                    </button>
+                                </div>
+                            </div><!--.quiz-ct-->
+                        </li><!--.quiz-->
+                        <li class="quiz">
+                            <div class="quiz-ct">
+                                <div class="quiz_header">
+                                    <span class="quiz_update">Actualizado: ayer...</span>
+                                    <span class="quiz_price">Gratis</span>
+                                    <span class="quiz_level">Nivel: Intermedio</span>
+                                </div>
+
+                                <div class="quiz_hero">
+                                    <button class="quiz_save" id="save">❤️</button>
+                                    <img src="" alt="Quiz Cover" class="quiz_img">
+                                    <span class="quiz_questions">12 preguntas</span>
+                                </div>
+
+                                <div class="quiz_main">
+                                    <h2 class="quiz_title">Quiz de Ejemplo</h2>
+                                    <p class="quiz_description">
+                                        Este es un quiz de ejemplo utilizado como muestra para testeo
+                                    </p>
+                                </div>
+
+                                <div class="quiz_footer">
+                                    <span class="quiz_author">José Antonio Osorio Valdés</span>
+                                    <span class="quiz_verified" data-verify="true">☑️</span>
+                                    <button class="quiz_follow" id="follow">
+                                        <span>Seguir +</span>
+                                    </button>
+                                </div>
+                            </div><!--.quiz-ct-->
+                        </li><!--.quiz-->
+                        <li class="quiz">
+                            <div class="quiz-ct">
+                                <div class="quiz_header">
+                                    <span class="quiz_update">Actualizado: ayer...</span>
+                                    <span class="quiz_price">Gratis</span>
+                                    <span class="quiz_level">Nivel: Intermedio</span>
+                                </div>
+
+                                <div class="quiz_hero">
+                                    <button class="quiz_save" id="save">❤️</button>
+                                    <img src="" alt="Quiz Cover" class="quiz_img">
+                                    <span class="quiz_questions">12 preguntas</span>
+                                </div>
+
+                                <div class="quiz_main">
+                                    <h2 class="quiz_title">Quiz de Ejemplo</h2>
+                                    <p class="quiz_description">
+                                        Este es un quiz de ejemplo utilizado como muestra para testeo
+                                    </p>
+                                </div>
+
+                                <div class="quiz_footer">
+                                    <span class="quiz_author">José Antonio Osorio Valdés</span>
+                                    <span class="quiz_verified" data-verify="true">☑️</span>
+                                    <button class="quiz_follow" id="follow">
+                                        <span>Seguir +</span>
+                                    </button>
+                                </div>
+                            </div><!--.quiz-ct-->
+                        </li><!--.quiz-->
+                        <li class="quiz">
+                            <div class="quiz-ct">
+                                <div class="quiz_header">
+                                    <span class="quiz_update">Actualizado: ayer...</span>
+                                    <span class="quiz_price">Gratis</span>
+                                    <span class="quiz_level">Nivel: Intermedio</span>
+                                </div>
+
+                                <div class="quiz_hero">
+                                    <button class="quiz_save" id="save">❤️</button>
+                                    <img src="" alt="Quiz Cover" class="quiz_img">
+                                    <span class="quiz_questions">12 preguntas</span>
+                                </div>
+
+                                <div class="quiz_main">
+                                    <h2 class="quiz_title">Quiz de Ejemplo</h2>
+                                    <p class="quiz_description">
+                                        Este es un quiz de ejemplo utilizado como muestra para testeo
+                                    </p>
+                                </div>
+
+                                <div class="quiz_footer">
+                                    <span class="quiz_author">José Antonio Osorio Valdés</span>
+                                    <span class="quiz_verified" data-verify="true">☑️</span>
+                                    <button class="quiz_follow" id="follow">
+                                        <span>Seguir +</span>
+                                    </button>
+                                </div>
+                            </div><!--.quiz-ct-->
+                        </li><!--.quiz-->
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <footer class="index_footer">
+            <div class="footer_hero">
+                <div class="brands">
+                    <div class="brand">
+                        <div class="brand_logo">
+                            <img src="" alt="Brand logo" class="brand_logo_img">
+                        </div>
+                        <p class="brand_support">Example phrase...</p>
+                    </div>
+                </div>
+            </div>
+            <nav class="footer_nav">
+                <ul class="footer_nav_list">
+                    <li>
+                        <a href="#">Políticas de privacidad</a>
+                        <a href="#">Términos y condiciones</a>
+                        <a href="#">Otros</a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
     <script src="js/app.js"></script>
 </body>
+
 </html>
